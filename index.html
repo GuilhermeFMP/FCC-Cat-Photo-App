@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Cat Photo App</title>
+  <title>CatPhotoApp</title>
 </head>
 
 <body>
   <h1>CatPhotoApp</h1>
+  
   <main>
 
     <section>
@@ -46,12 +47,12 @@
       <form action="https://freecatphotoapp.com/submit-cat-photo">
         <fieldset>
           <legend>Is your cat an indoor or outdoor cat?</legend>
-          <label><input id="indoor" value="indoor" name="indoor-outdoor" type="radio"> Indoor</label>
+          <label><input id="indoor" value="indoor" name="indoor-outdoor" type="radio" checked> Indoor</label>
           <label><input id="outdoor" value="outdoor" name="indoor-outdoor" type="radio"> Outdoor</label>
         </fieldset>
         <fieldset>
           <legend>What's your cat's personality?</legend>
-          <input value="loving" id="loving" name="personality" type="checkbox"> <label for="loving">Loving</label>
+          <input value="loving" id="loving" name="personality" type="checkbox" checked> <label for="loving">Loving</label>
           <input value="lazy" id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
           <input value="energetic" id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
         </fieldset>
@@ -61,6 +62,10 @@
     </section>
 
   </main>
+
+  <footer>
+    <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+  </footer>
 </body>
 
 </html>
